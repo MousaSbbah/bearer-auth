@@ -19,6 +19,7 @@ API Live Url: **https://mousa-bearer-auth.herokuapp.com/**
 ## Pull Request
 
 This is the Main Pull Request for this project :
+https://github.com/MousaSbbah/bearer-auth/pull/1
 
 ## Setup
 
@@ -89,4 +90,4 @@ and to try the server you can use this [Web Application](https://javascript-401.
 
 ## UML
 
-![](uml.png)
+![uml](uml.png)
