@@ -9,14 +9,15 @@ module.exports = async (req, res, next) => {
     return;
   }
   try {
+    //Decode the user name and password from the header
     const basicAuth = req.headers.authorization.split(" ").pop();
 
     const [username, password] = base64.decode(basicAuth).split(":");
-
+    //Compare the input from the database to find the user
     req.user = await User.authenticateBasic(username, password);
 
     next();
   } catch (error) {
-    res.status(403).send('Invalid Username')
+    res.status(403).send("Invalid Username");
   }
 };

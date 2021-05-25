@@ -12,14 +12,10 @@ const app = express();
 app.use(express.json());
 app.use(morgan('dev'));
 app.use(cors());
-//Routes 
 
+//Routes
 app.use('/',authRouter)
 
-//Rout for test the 500 handler
-app.get('/bad',()=>{
-  throw new Error();
-})
 
 
 //Errors middleware handler 
