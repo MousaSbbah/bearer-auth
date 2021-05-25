@@ -27,6 +27,7 @@ https://github.com/MousaSbbah/bearer-auth/pull/1
 
       PORT - 3030
       MONGOOSE_URI -  mongodb://********************
+      SECRET - *****
 
 ## Running the app
 
@@ -76,7 +77,7 @@ Endpoint:
 
 ## Tests
 
-Github actions link :****
+Github actions link :**https://github.com/MousaSbbah/bearer-auth/actions**
 
 **Unit Tests:**
 
